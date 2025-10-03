@@ -1,18 +1,27 @@
 #!/usr/bin/env python3
 
 import os
+import sys
+
+# Detectar sistema operativo para usar comando correcto
+if sys.platform == "win32":
+    python_cmd = "python"
+    script = "built_in_font_gen.py"
+else:
+    python_cmd = "./built_in_font_gen.py"
+    script = ""
 
 print("Generating 8 px")
-os.system("./built_in_font_gen.py --size 8 -o lv_font_montserrat_8.c --bpp 4")
+os.system(f"{python_cmd} {script} --size 8 -o lv_font_montserrat_8.c --bpp 4" if script else f"{python_cmd} --size 8 -o lv_font_montserrat_8.c --bpp 4")
 
 print("\nGenerating 10 px")
-os.system("./built_in_font_gen.py --size 10 -o lv_font_montserrat_10.c --bpp 4")
+os.system(f"{python_cmd} {script} --size 10 -o lv_font_montserrat_10.c --bpp 4" if script else f"{python_cmd} --size 10 -o lv_font_montserrat_10.c --bpp 4")
 
 print("\nGenerating 12 px")
-os.system("./built_in_font_gen.py --size 12 -o lv_font_montserrat_12.c --bpp 4")
+os.system(f"{python_cmd} {script} --size 12 -o lv_font_montserrat_12.c --bpp 4" if script else f"{python_cmd} --size 12 -o lv_font_montserrat_12.c --bpp 4")
 
 print("\nGenerating 14 px")
-os.system("./built_in_font_gen.py --size 14 -o lv_font_montserrat_14.c --bpp 4")
+os.system(f"{python_cmd} {script} --size 14 -o lv_font_montserrat_14.c --bpp 4" if script else f"{python_cmd} --size 14 -o lv_font_montserrat_14.c --bpp 4")
 
 print("\nGenerating 16 px")
 os.system("./built_in_font_gen.py --size 16 -o lv_font_montserrat_16.c --bpp 4")

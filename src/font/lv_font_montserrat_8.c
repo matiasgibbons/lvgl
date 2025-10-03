@@ -1,17 +1,17 @@
 /*******************************************************************************
  * Size: 8 px
  * Bpp: 4
- * Opts: --no-compress --no-prefilter --bpp 4 --size 8 --font Montserrat-Medium.ttf -r 0x20-0x7F,0xB0,0x2022 --font FontAwesome5-Solid+Brands+Regular.woff -r 61441,61448,61451,61452,61452,61453,61457,61459,61461,61465,61468,61473,61478,61479,61480,61502,61507,61512,61515,61516,61517,61521,61522,61523,61524,61543,61544,61550,61552,61553,61556,61559,61560,61561,61563,61587,61589,61636,61637,61639,61641,61664,61671,61674,61683,61724,61732,61787,61931,62016,62017,62018,62019,62020,62087,62099,62212,62189,62810,63426,63650 --format lvgl -o lv_font_montserrat_8.c --force-fast-kern-format
+ * Opts: --no-compress --no-prefilter --bpp 4 --size 8 --font Montserrat-Medium.ttf -r 0x20-0x7F,0xA1-0xAC,0xAE-0xFF,0xB0,0x2022 --font FontAwesome5-Solid+Brands+Regular.woff -r 61441,61448,61451,61452,61452,61453,61457,61459,61461,61465,61468,61473,61478,61479,61480,61502,61507,61512,61515,61516,61517,61521,61522,61523,61524,61543,61544,61550,61552,61553,61556,61559,61560,61561,61563,61587,61589,61636,61637,61639,61641,61664,61671,61674,61683,61724,61732,61787,61931,62016,62017,62018,62019,62020,62087,62099,62212,62189,62810,63426,63650 --format lvgl -o lv_font_montserrat_8.c --force-fast-kern-format
  ******************************************************************************/
 
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
-    #include "lvgl.h"
+#include "lvgl.h"
 #else
-    #include "../../lvgl.h"
+#include "lvgl/lvgl.h"
 #endif
 
 #ifndef LV_FONT_MONTSERRAT_8
-    #define LV_FONT_MONTSERRAT_8 1
+#define LV_FONT_MONTSERRAT_8 1
 #endif
 
 #if LV_FONT_MONTSERRAT_8
@@ -96,7 +96,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0x0, 0xa2, 0x8a, 0xa9, 0x0,
 
     /* U+0034 "4" */
-    0x0, 0x49, 0x0, 0x3, 0xa0, 0x0, 0x1b, 0x8,
+    0x0, 0x49, 0x0, 0x2, 0xa0, 0x0, 0x1b, 0x8,
     0x20, 0x8b, 0xad, 0xb2, 0x0, 0x9, 0x30,
 
     /* U+0035 "5" */
@@ -146,7 +146,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0x28, 0x49, 0x99, 0xa6, 0x3, 0x88, 0x75, 0x0,
 
     /* U+0041 "A" */
-    0x0, 0xb, 0x90, 0x0, 0x3, 0x8a, 0x10, 0x0,
+    0x0, 0xb, 0x80, 0x0, 0x3, 0x8a, 0x10, 0x0,
     0xb1, 0x39, 0x0, 0x4d, 0x99, 0xd1, 0xb, 0x10,
     0x3, 0x90,
 
@@ -219,7 +219,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
 
     /* U+0052 "R" */
     0x2e, 0xaa, 0x90, 0x2a, 0x0, 0x84, 0x2a, 0x0,
-    0xa3, 0x2d, 0xac, 0x80, 0x2a, 0x1, 0xa1,
+    0xa3, 0x2d, 0xac, 0x80, 0x2a, 0x1, 0xb1,
 
     /* U+0053 "S" */
     0x2a, 0xaa, 0x27, 0x60, 0x0, 0x8, 0x98, 0x10,
@@ -235,13 +235,13 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
 
     /* U+0056 "V" */
     0xb, 0x10, 0x5, 0x70, 0x49, 0x0, 0xb0, 0x0,
-    0xc1, 0x57, 0x0, 0x4, 0x9c, 0x0, 0x0, 0xc,
+    0xc1, 0x57, 0x0, 0x4, 0x9b, 0x0, 0x0, 0xc,
     0x70, 0x0,
 
     /* U+0057 "W" */
-    0x94, 0x0, 0xf1, 0x3, 0x93, 0xa0, 0x69, 0x70,
-    0x93, 0xc, 0xb, 0xb, 0xb, 0x0, 0x79, 0x80,
-    0x89, 0x70, 0x1, 0xf2, 0x2, 0xf1, 0x0,
+    0x94, 0x0, 0xf1, 0x3, 0x83, 0xa0, 0x69, 0x70,
+    0x92, 0xc, 0xb, 0xb, 0xb, 0x0, 0x79, 0x80,
+    0x89, 0x60, 0x1, 0xf2, 0x2, 0xf1, 0x0,
 
     /* U+0058 "X" */
     0x58, 0x2, 0xa0, 0x8, 0x7b, 0x10, 0x0, 0xf5,
@@ -253,7 +253,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0x0, 0x0,
 
     /* U+005A "Z" */
-    0x6a, 0xac, 0xd0, 0x0, 0x1b, 0x10, 0x0, 0xb2,
+    0x6a, 0xac, 0xd0, 0x0, 0x1b, 0x20, 0x0, 0xb2,
     0x0, 0xb, 0x30, 0x0, 0x8d, 0xaa, 0xa0,
 
     /* U+005B "[" */
@@ -278,7 +278,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0x6, 0x60,
 
     /* U+0061 "a" */
-    0x29, 0x98, 0x2, 0x98, 0xd0, 0x84, 0xc, 0x13,
+    0x29, 0x98, 0x2, 0x98, 0xd1, 0x84, 0xc, 0x13,
     0xb9, 0xd1,
 
     /* U+0062 "b" */
@@ -318,7 +318,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0x38, 0x6b, 0x40,
 
     /* U+006B "k" */
-    0x48, 0x0, 0x4, 0x80, 0x0, 0x48, 0xa, 0x44,
+    0x48, 0x0, 0x4, 0x80, 0x0, 0x48, 0xa, 0x34,
     0x9c, 0x30, 0x4d, 0x6a, 0x4, 0x80, 0x77,
 
     /* U+006C "l" */
@@ -359,7 +359,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0xa9, 0x9b,
 
     /* U+0076 "v" */
-    0xb, 0x0, 0x84, 0x5, 0x70, 0xb0, 0x0, 0xb7,
+    0xb, 0x0, 0x83, 0x5, 0x70, 0xb0, 0x0, 0xb7,
     0x50, 0x0, 0x6d, 0x0,
 
     /* U+0077 "w" */
@@ -391,8 +391,416 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     /* U+007E "~" */
     0x29, 0x35, 0x15, 0x6, 0x80,
 
+    /* U+00A1 "¡" */
+    0x46, 0x12, 0x46, 0x57, 0x58,
+
+    /* U+00A2 "¢" */
+    0x0, 0x60, 0x0, 0x9d, 0x90, 0x74, 0x81, 0x9,
+    0x38, 0x0, 0x2b, 0xcb, 0x10, 0x9, 0x0,
+
+    /* U+00A3 "£" */
+    0x3, 0xaa, 0xa0, 0xc, 0x0, 0x0, 0x5e, 0x77,
+    0x0, 0xc, 0x0, 0x0, 0x8e, 0xaa, 0x90,
+
+    /* U+00A4 "¤" */
+    0x0, 0x0, 0x0, 0x69, 0x99, 0xa1, 0x38, 0x0,
+    0xa0, 0x38, 0x0, 0xa0, 0x69, 0x99, 0xa1, 0x0,
+    0x0, 0x0,
+
+    /* U+00A5 "¥" */
+    0x8, 0x50, 0x9, 0x30, 0x8, 0x48, 0x40, 0x1,
+    0x6d, 0xa5, 0x0, 0x16, 0xb8, 0x50, 0x0, 0x9,
+    0x30, 0x0,
+
+    /* U+00A6 "¦" */
+    0x28, 0x28, 0x15, 0x0, 0x15, 0x28, 0x28,
+
+    /* U+00A7 "§" */
+    0x3a, 0x96, 0x68, 0x10, 0x85, 0x77, 0x59, 0x87,
+    0x0, 0x57, 0x59, 0x91,
+
+    /* U+00A8 "¨" */
+    0x72, 0x50,
+
+    /* U+00A9 "©" */
+    0x2, 0x55, 0x40, 0x2, 0x57, 0x85, 0x60, 0x64,
+    0x50, 0x5, 0x6, 0x45, 0x0, 0x60, 0x26, 0x78,
+    0x56, 0x0, 0x25, 0x54, 0x0,
+
+    /* U+00AA "ª" */
+    0x47, 0x74, 0x59, 0x45, 0x60,
+
+    /* U+00AB "«" */
+    0x9, 0x45, 0x64, 0xb0, 0xa, 0x55,
+
+    /* U+00AC "¬" */
+    0x49, 0x9b, 0x10, 0x0, 0x92, 0x0, 0x2, 0x0,
+
+    /* U+00AE "®" */
+    0x2, 0x55, 0x40, 0x2, 0x58, 0x74, 0x60, 0x60,
+    0x80, 0x85, 0x6, 0xb, 0x93, 0x60, 0x25, 0x40,
+    0x66, 0x0, 0x25, 0x54, 0x0,
+
+    /* U+00AF "¯" */
+    0x67, 0x50,
+
     /* U+00B0 "°" */
     0x26, 0x47, 0x7, 0x27, 0x50,
+
+    /* U+00B1 "±" */
+    0x0, 0x20, 0x0, 0xa, 0x0, 0x49, 0xd9, 0x10,
+    0xa, 0x0, 0x49, 0x99, 0x10,
+
+    /* U+00B2 "²" */
+    0x47, 0x90, 0x3, 0x60, 0x5b, 0x70,
+
+    /* U+00B3 "³" */
+    0x58, 0xa0, 0x6, 0x70, 0x57, 0x90,
+
+    /* U+00B4 "´" */
+    0x8, 0x40,
+
+    /* U+00B5 "µ" */
+    0x48, 0x0, 0xb4, 0x80, 0xb, 0x48, 0x2, 0xb4,
+    0xd9, 0x9b, 0x48, 0x0, 0x0,
+
+    /* U+00B6 "¶" */
+    0x6f, 0xcb, 0x5c, 0xf7, 0x45, 0x29, 0x74, 0x50,
+    0x37, 0x45, 0x3, 0x74, 0x50, 0x37, 0x45, 0x0,
+    0x0, 0x0,
+
+    /* U+00B7 "·" */
+    0x56, 0x0,
+
+    /* U+00B8 "¸" */
+    0x8, 0x2, 0x70,
+
+    /* U+00B9 "¹" */
+    0x2b, 0x20, 0x62, 0x2b, 0x80,
+
+    /* U+00BA "º" */
+    0x57, 0x80, 0x90, 0x80, 0x38, 0x60,
+
+    /* U+00BB "»" */
+    0x54, 0x90, 0xb, 0x47, 0x56, 0xa0,
+
+    /* U+00BC "¼" */
+    0x18, 0x10, 0x5, 0x10, 0x0, 0x62, 0x2, 0x60,
+    0x0, 0x6, 0x20, 0x80, 0x20, 0x2, 0x87, 0x81,
+    0x36, 0x0, 0x0, 0x53, 0x9, 0x8a, 0x0, 0x4,
+    0x0, 0x1, 0x20,
+
+    /* U+00BD "½" */
+    0x18, 0x10, 0x5, 0x10, 0x6, 0x20, 0x27, 0x0,
+    0x6, 0x20, 0x96, 0x74, 0x28, 0x77, 0x22, 0x9,
+    0x0, 0x35, 0x1, 0x91, 0x0, 0x60, 0x7, 0x76,
+
+    /* U+00BE "¾" */
+    0x47, 0x80, 0x5, 0x10, 0x0, 0x75, 0x2, 0x60,
+    0x0, 0x1, 0xa0, 0x80, 0x30, 0x5, 0x76, 0x81,
+    0x36, 0x0, 0x0, 0x53, 0x9, 0x8a, 0x0, 0x4,
+    0x0, 0x1, 0x20,
+
+    /* U+00BF "¿" */
+    0x0, 0xa0, 0x0, 0x4, 0x0, 0x9, 0x40, 0x6,
+    0x70, 0x11, 0x1a, 0xa9, 0x10,
+
+    /* U+00C0 "À" */
+    0x0, 0x15, 0x0, 0x0, 0x0, 0x42, 0x0, 0x0,
+    0xb, 0x80, 0x0, 0x3, 0x8a, 0x10, 0x0, 0xb1,
+    0x39, 0x0, 0x4d, 0x99, 0xd1, 0xb, 0x10, 0x3,
+    0x90,
+
+    /* U+00C1 "Á" */
+    0x0, 0x0, 0x60, 0x0, 0x0, 0x33, 0x0, 0x0,
+    0xb, 0x80, 0x0, 0x3, 0x8a, 0x10, 0x0, 0xb1,
+    0x39, 0x0, 0x4d, 0x99, 0xd1, 0xb, 0x10, 0x3,
+    0x90,
+
+    /* U+00C2 "Â" */
+    0x0, 0x5, 0x40, 0x0, 0x1, 0x35, 0x0, 0x0,
+    0xb, 0x80, 0x0, 0x3, 0x8a, 0x10, 0x0, 0xb1,
+    0x39, 0x0, 0x4d, 0x99, 0xd1, 0xb, 0x10, 0x3,
+    0x90,
+
+    /* U+00C3 "Ã" */
+    0x0, 0x17, 0x22, 0x0, 0x4, 0x17, 0x0, 0x0,
+    0xb, 0x80, 0x0, 0x3, 0x8a, 0x10, 0x0, 0xb1,
+    0x39, 0x0, 0x4d, 0x99, 0xd1, 0xb, 0x10, 0x3,
+    0x90,
+
+    /* U+00C4 "Ä" */
+    0x0, 0x15, 0x60, 0x0, 0x0, 0x0, 0x0, 0x0,
+    0xb, 0x80, 0x0, 0x3, 0x8a, 0x10, 0x0, 0xb1,
+    0x39, 0x0, 0x4d, 0x99, 0xd1, 0xb, 0x10, 0x3,
+    0x90,
+
+    /* U+00C5 "Å" */
+    0x0, 0x4, 0x40, 0x0, 0x0, 0x56, 0x0, 0x0,
+    0x4, 0x30, 0x0, 0x0, 0xb8, 0x0, 0x0, 0x38,
+    0xa1, 0x0, 0xb, 0x13, 0x90, 0x4, 0xd9, 0x9d,
+    0x10, 0xb1, 0x0, 0x39,
+
+    /* U+00C6 "Æ" */
+    0x0, 0x1, 0xde, 0xaa, 0x80, 0x0, 0xa4, 0xa0,
+    0x0, 0x0, 0x57, 0x2d, 0xaa, 0x40, 0x1d, 0x9a,
+    0xa0, 0x0, 0xa, 0x20, 0x2e, 0xaa, 0x90,
+
+    /* U+00C7 "Ç" */
+    0x7, 0xba, 0xa2, 0x59, 0x0, 0x0, 0x93, 0x0,
+    0x0, 0x59, 0x0, 0x0, 0x7, 0xbb, 0xa2, 0x0,
+    0x4a, 0x0,
+
+    /* U+00C8 "È" */
+    0x2, 0x40, 0x0, 0x4, 0x10, 0x2e, 0xaa, 0x82,
+    0xa0, 0x0, 0x2d, 0xaa, 0x42, 0xa0, 0x0, 0x2e,
+    0xaa, 0x90,
+
+    /* U+00C9 "É" */
+    0x0, 0x6, 0x0, 0x4, 0x20, 0x2e, 0xaa, 0x82,
+    0xa0, 0x0, 0x2d, 0xaa, 0x42, 0xa0, 0x0, 0x2e,
+    0xaa, 0x90,
+
+    /* U+00CA "Ê" */
+    0x0, 0x63, 0x0, 0x23, 0x50, 0x2e, 0xaa, 0x82,
+    0xa0, 0x0, 0x2d, 0xaa, 0x42, 0xa0, 0x0, 0x2e,
+    0xaa, 0x90,
+
+    /* U+00CB "Ë" */
+    0x2, 0x47, 0x0, 0x0, 0x0, 0x2e, 0xaa, 0x82,
+    0xa0, 0x0, 0x2d, 0xaa, 0x42, 0xa0, 0x0, 0x2e,
+    0xaa, 0x90,
+
+    /* U+00CC "Ì" */
+    0x6, 0x0, 0x14, 0x2, 0xa0, 0x2a, 0x2, 0xa0,
+    0x2a, 0x2, 0xa0,
+
+    /* U+00CD "Í" */
+    0x4, 0x20, 0x50, 0x2a, 0x2, 0xa0, 0x2a, 0x2,
+    0xa0, 0x2a, 0x0,
+
+    /* U+00CE "Î" */
+    0x3, 0x60, 0x5, 0x23, 0x2, 0xa0, 0x2, 0xa0,
+    0x2, 0xa0, 0x2, 0xa0, 0x2, 0xa0,
+
+    /* U+00CF "Ï" */
+    0x73, 0x30, 0x0, 0x2a, 0x2, 0xa0, 0x2a, 0x2,
+    0xa0, 0x2a, 0x0,
+
+    /* U+00D0 "Ð" */
+    0x1e, 0xab, 0xb3, 0x1, 0xb0, 0x1, 0xc1, 0x9f,
+    0x92, 0x8, 0x31, 0xb0, 0x1, 0xc1, 0x1e, 0xaa,
+    0xb3, 0x0,
+
+    /* U+00D1 "Ñ" */
+    0x0, 0x72, 0x40, 0x0, 0x45, 0x20, 0x2d, 0x10,
+    0x2a, 0x2c, 0xb0, 0x2a, 0x2a, 0x4b, 0x2a, 0x2a,
+    0x5, 0xca, 0x2a, 0x0, 0x7a,
+
+    /* U+00D2 "Ò" */
+    0x0, 0x51, 0x0, 0x0, 0x1, 0x50, 0x0, 0x7,
+    0xbb, 0xb3, 0x5, 0x90, 0x1, 0xc1, 0x93, 0x0,
+    0x8, 0x45, 0x90, 0x1, 0xc1, 0x7, 0xbb, 0xb3,
+    0x0,
+
+    /* U+00D3 "Ó" */
+    0x0, 0x3, 0x30, 0x0, 0x0, 0x50, 0x0, 0x7,
+    0xbb, 0xb3, 0x5, 0x90, 0x1, 0xc1, 0x93, 0x0,
+    0x8, 0x45, 0x90, 0x1, 0xc1, 0x7, 0xbb, 0xb3,
+    0x0,
+
+    /* U+00D4 "Ô" */
+    0x0, 0x27, 0x0, 0x0, 0x5, 0x24, 0x0, 0x7,
+    0xbb, 0xb3, 0x5, 0x90, 0x1, 0xc1, 0x93, 0x0,
+    0x8, 0x45, 0x90, 0x1, 0xc1, 0x7, 0xbb, 0xb3,
+    0x0,
+
+    /* U+00D5 "Õ" */
+    0x0, 0x62, 0x40, 0x0, 0x4, 0x44, 0x0, 0x7,
+    0xbb, 0xb3, 0x5, 0x90, 0x1, 0xc1, 0x93, 0x0,
+    0x8, 0x45, 0x90, 0x1, 0xc1, 0x7, 0xbb, 0xb3,
+    0x0,
+
+    /* U+00D6 "Ö" */
+    0x0, 0x72, 0x40, 0x0, 0x0, 0x0, 0x0, 0x7,
+    0xbb, 0xb3, 0x5, 0x90, 0x1, 0xc1, 0x93, 0x0,
+    0x8, 0x45, 0x90, 0x1, 0xc1, 0x7, 0xbb, 0xb3,
+    0x0,
+
+    /* U+00D7 "×" */
+    0x0, 0x0, 0x9, 0x47, 0x6, 0xe1, 0x7, 0x16,
+
+    /* U+00D8 "Ø" */
+    0x0, 0x0, 0x9, 0x0, 0x7b, 0xbf, 0x50, 0x59,
+    0x6, 0x5c, 0x19, 0x32, 0x70, 0x84, 0x5a, 0x90,
+    0x1c, 0x10, 0xfd, 0xbb, 0x30, 0x13, 0x0, 0x0,
+    0x0,
+
+    /* U+00D9 "Ù" */
+    0x0, 0x60, 0x0, 0x0, 0x23, 0x0, 0x39, 0x0,
+    0x48, 0x39, 0x0, 0x48, 0x39, 0x0, 0x48, 0x1c,
+    0x0, 0x66, 0x6, 0xba, 0xa0,
+
+    /* U+00DA "Ú" */
+    0x0, 0x4, 0x20, 0x0, 0x14, 0x0, 0x39, 0x0,
+    0x48, 0x39, 0x0, 0x48, 0x39, 0x0, 0x48, 0x1c,
+    0x0, 0x66, 0x6, 0xba, 0xa0,
+
+    /* U+00DB "Û" */
+    0x0, 0x36, 0x0, 0x0, 0x53, 0x20, 0x39, 0x0,
+    0x48, 0x39, 0x0, 0x48, 0x39, 0x0, 0x48, 0x1c,
+    0x0, 0x66, 0x6, 0xba, 0xa0,
+
+    /* U+00DC "Ü" */
+    0x0, 0x74, 0x20, 0x0, 0x0, 0x0, 0x39, 0x0,
+    0x48, 0x39, 0x0, 0x48, 0x39, 0x0, 0x48, 0x1c,
+    0x0, 0x66, 0x6, 0xba, 0xa0,
+
+    /* U+00DD "Ý" */
+    0x0, 0x1, 0x50, 0x0, 0x0, 0x50, 0x0, 0xa,
+    0x20, 0xb, 0x0, 0x1b, 0x9, 0x30, 0x0, 0x5b,
+    0x80, 0x0, 0x0, 0xd0, 0x0, 0x0, 0xc, 0x0,
+    0x0,
+
+    /* U+00DE "Þ" */
+    0x2e, 0xaa, 0x60, 0x2a, 0x0, 0xa3, 0x2a, 0x0,
+    0x93, 0x2d, 0xaa, 0x60, 0x2a, 0x0, 0x0,
+
+    /* U+00DF "ß" */
+    0x8, 0x9a, 0x10, 0x29, 0x3, 0x70, 0x48, 0x5,
+    0x60, 0x48, 0x4d, 0x40, 0x48, 0x0, 0xc0, 0x48,
+    0x6a, 0x80,
+
+    /* U+00E0 "à" */
+    0x9, 0x40, 0x0, 0x3, 0x0, 0x29, 0x98, 0x2,
+    0x98, 0xd1, 0x84, 0xc, 0x13, 0xb9, 0xd1,
+
+    /* U+00E1 "á" */
+    0x0, 0x94, 0x0, 0x2, 0x0, 0x29, 0x98, 0x2,
+    0x98, 0xd1, 0x84, 0xc, 0x13, 0xb9, 0xd1,
+
+    /* U+00E2 "â" */
+    0x7, 0xb2, 0x0, 0x30, 0x30, 0x29, 0x98, 0x2,
+    0x98, 0xd1, 0x84, 0xc, 0x13, 0xb9, 0xd1,
+
+    /* U+00E3 "ã" */
+    0x8, 0x36, 0x0, 0x54, 0x30, 0x29, 0x98, 0x2,
+    0x98, 0xd1, 0x84, 0xc, 0x13, 0xb9, 0xd1,
+
+    /* U+00E4 "ä" */
+    0x7, 0x24, 0x0, 0x0, 0x0, 0x29, 0x98, 0x2,
+    0x98, 0xd1, 0x84, 0xc, 0x13, 0xb9, 0xd1,
+
+    /* U+00E5 "å" */
+    0x2, 0x50, 0x0, 0x25, 0x0, 0x29, 0x98, 0x2,
+    0x98, 0xd1, 0x84, 0xc, 0x13, 0xb9, 0xd1,
+
+    /* U+00E6 "æ" */
+    0x29, 0x99, 0x99, 0xa1, 0x29, 0x8d, 0x98, 0x96,
+    0x84, 0xc, 0x50, 0x10, 0x3b, 0xa6, 0xaa, 0xb1,
+
+    /* U+00E7 "ç" */
+    0x1a, 0xaa, 0x18, 0x40, 0x0, 0x84, 0x0, 0x1,
+    0xaa, 0xa1, 0x2, 0xc0, 0x0,
+
+    /* U+00E8 "è" */
+    0x7, 0x60, 0x0, 0x3, 0x0, 0x19, 0x99, 0x19,
+    0x98, 0x86, 0x85, 0x1, 0x1, 0xaa, 0xb1,
+
+    /* U+00E9 "é" */
+    0x0, 0x76, 0x0, 0x3, 0x0, 0x19, 0x99, 0x19,
+    0x98, 0x86, 0x85, 0x1, 0x1, 0xaa, 0xb1,
+
+    /* U+00EA "ê" */
+    0x5, 0xc4, 0x0, 0x30, 0x30, 0x19, 0x99, 0x19,
+    0x98, 0x86, 0x85, 0x1, 0x1, 0xaa, 0xb1,
+
+    /* U+00EB "ë" */
+    0x6, 0x15, 0x0, 0x0, 0x0, 0x19, 0x99, 0x19,
+    0x98, 0x86, 0x85, 0x1, 0x1, 0xaa, 0xb1,
+
+    /* U+00EC "ì" */
+    0xa, 0x20, 0x2, 0x4, 0x80, 0x48, 0x4, 0x80,
+    0x48,
+
+    /* U+00ED "í" */
+    0xa, 0x21, 0x10, 0x48, 0x4, 0x80, 0x48, 0x4,
+    0x80,
+
+    /* U+00EE "î" */
+    0x8, 0xa0, 0x2, 0x11, 0x4, 0x80, 0x4, 0x80,
+    0x4, 0x80, 0x4, 0x80,
+
+    /* U+00EF "ï" */
+    0x66, 0x0, 0x0, 0x48, 0x4, 0x80, 0x48, 0x4,
+    0x80,
+
+    /* U+00F0 "ð" */
+    0x29, 0xcb, 0x40, 0x76, 0x67, 0x8, 0x96, 0xb8,
+    0x40, 0x7b, 0x83, 0x5, 0x81, 0xaa, 0xa0,
+
+    /* U+00F1 "ñ" */
+    0x5, 0x66, 0x0, 0x41, 0x60, 0x4c, 0x9b, 0x44,
+    0x90, 0x1b, 0x48, 0x0, 0xc4, 0x80, 0xc,
+
+    /* U+00F2 "ò" */
+    0x6, 0x70, 0x0, 0x3, 0x0, 0x1a, 0xaa, 0x18,
+    0x40, 0x3a, 0x84, 0x3, 0xa1, 0xaa, 0xa1,
+
+    /* U+00F3 "ó" */
+    0x0, 0x67, 0x0, 0x3, 0x0, 0x1a, 0xaa, 0x18,
+    0x40, 0x3a, 0x84, 0x3, 0xa1, 0xaa, 0xa1,
+
+    /* U+00F4 "ô" */
+    0x4, 0xc5, 0x0, 0x30, 0x30, 0x1a, 0xaa, 0x18,
+    0x40, 0x3a, 0x84, 0x3, 0xa1, 0xaa, 0xa1,
+
+    /* U+00F5 "õ" */
+    0x6, 0x56, 0x0, 0x52, 0x40, 0x1a, 0xaa, 0x18,
+    0x40, 0x3a, 0x84, 0x3, 0xa1, 0xaa, 0xa1,
+
+    /* U+00F6 "ö" */
+    0x5, 0x16, 0x0, 0x0, 0x0, 0x1a, 0xaa, 0x18,
+    0x40, 0x3a, 0x84, 0x3, 0xa1, 0xaa, 0xa1,
+
+    /* U+00F7 "÷" */
+    0x0, 0x80, 0x0, 0x0, 0x0, 0x49, 0x99, 0x10,
+    0x8, 0x0,
+
+    /* U+00F8 "ø" */
+    0x0, 0x0, 0x21, 0xaa, 0xf2, 0x84, 0x55, 0xa8,
+    0x65, 0x3a, 0x1f, 0xaa, 0x12, 0x10, 0x0,
+
+    /* U+00F9 "ù" */
+    0x4, 0x90, 0x0, 0x2, 0x0, 0x57, 0x1, 0xb5,
+    0x70, 0x1b, 0x48, 0x3, 0xb0, 0xa9, 0x9b,
+
+    /* U+00FA "ú" */
+    0x0, 0x49, 0x0, 0x3, 0x0, 0x57, 0x1, 0xb5,
+    0x70, 0x1b, 0x48, 0x3, 0xb0, 0xa9, 0x9b,
+
+    /* U+00FB "û" */
+    0x2, 0xb7, 0x0, 0x20, 0x20, 0x57, 0x1, 0xb5,
+    0x70, 0x1b, 0x48, 0x3, 0xb0, 0xa9, 0x9b,
+
+    /* U+00FC "ü" */
+    0x4, 0x27, 0x0, 0x0, 0x0, 0x57, 0x1, 0xb5,
+    0x70, 0x1b, 0x48, 0x3, 0xb0, 0xa9, 0x9b,
+
+    /* U+00FD "ý" */
+    0x0, 0xa, 0x20, 0x0, 0x11, 0x0, 0xb, 0x10,
+    0x83, 0x3, 0x81, 0xa0, 0x0, 0xaa, 0x30, 0x0,
+    0x4a, 0x0, 0xa, 0xb2, 0x0,
+
+    /* U+00FE "þ" */
+    0x48, 0x0, 0x0, 0x48, 0x0, 0x0, 0x4c, 0xab,
+    0x50, 0x4a, 0x0, 0xc0, 0x4a, 0x0, 0xc0, 0x4c,
+    0xaa, 0x50, 0x48, 0x0, 0x0,
+
+    /* U+00FF "ÿ" */
+    0x0, 0x75, 0x20, 0x0, 0x0, 0x0, 0xb, 0x10,
+    0x83, 0x3, 0x81, 0xa0, 0x0, 0xaa, 0x30, 0x0,
+    0x4a, 0x0, 0xa, 0xb2, 0x0,
 
     /* U+2022 "•" */
     0x0, 0x5d, 0x2,
@@ -421,7 +829,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0xa, 0xff, 0xa0, 0x0, 0x0, 0x99, 0x0, 0x0,
 
     /* U+F00D "" */
-    0x63, 0x0, 0x82, 0xcf, 0x4a, 0xf4, 0x1d, 0xff,
+    0x63, 0x0, 0x72, 0xcf, 0x4a, 0xf4, 0x1d, 0xff,
     0x60, 0xa, 0xff, 0x30, 0xaf, 0x7d, 0xf3, 0xa6,
     0x1, 0xb3,
 
@@ -452,13 +860,13 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
 
     /* U+F01C "" */
     0x5, 0xff, 0xff, 0xf5, 0x1, 0xe3, 0x0, 0x3,
-    0xe1, 0xa8, 0x0, 0x0, 0x8, 0xaf, 0xff, 0x60,
+    0xe1, 0xa8, 0x0, 0x0, 0x8, 0xaf, 0xff, 0x50,
     0x6f, 0xff, 0xff, 0xff, 0xff, 0xff, 0xfd, 0xff,
     0xff, 0xff, 0xfd,
 
     /* U+F021 "" */
     0x0, 0x0, 0x0, 0x3, 0x2, 0xbf, 0xfb, 0x3f,
-    0x2e, 0x91, 0x18, 0xff, 0x9a, 0x0, 0x6c, 0xff,
+    0x2e, 0x92, 0x18, 0xff, 0x9a, 0x0, 0x6c, 0xff,
     0x31, 0x0, 0x24, 0x44, 0x44, 0x42, 0x0, 0x13,
     0xff, 0xc6, 0x0, 0xb9, 0xfe, 0xa5, 0x5b, 0xd1,
     0xf2, 0x8c, 0xc8, 0x10, 0x30, 0x0, 0x0, 0x0,
@@ -492,7 +900,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     /* U+F048 "" */
     0x40, 0x0, 0x2f, 0x20, 0x8f, 0xf2, 0x9f, 0xff,
     0xcf, 0xff, 0xff, 0xff, 0xff, 0x5e, 0xff, 0xf2,
-    0x2e, 0xfb, 0x10, 0x19,
+    0x2d, 0xfb, 0x10, 0x19,
 
     /* U+F04B "" */
     0x0, 0x0, 0x0, 0xd, 0xa1, 0x0, 0x0, 0xff,
@@ -527,13 +935,13 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
 
     /* U+F053 "" */
     0x0, 0x6, 0x20, 0x7, 0xf4, 0x7, 0xf5, 0x5,
-    0xf6, 0x0, 0x1e, 0xb0, 0x0, 0x2e, 0xb0, 0x0,
+    0xf5, 0x0, 0x2e, 0xb0, 0x0, 0x2e, 0xb0, 0x0,
     0x2e, 0x60, 0x0, 0x10,
 
     /* U+F054 "" */
-    0x26, 0x0, 0x4, 0xf7, 0x0, 0x5, 0xf7, 0x0,
-    0x6, 0xf5, 0x0, 0xbe, 0x10, 0xbe, 0x20, 0x6e,
-    0x20, 0x0, 0x10, 0x0,
+    0x26, 0x0, 0x4, 0xf6, 0x0, 0x5, 0xf6, 0x0,
+    0x6, 0xf5, 0x0, 0xbe, 0x20, 0xbe, 0x10, 0x6e,
+    0x10, 0x0, 0x10, 0x0,
 
     /* U+F067 "" */
     0x0, 0x4, 0x0, 0x0, 0x3, 0xf3, 0x0, 0x0,
@@ -733,10 +1141,10 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0x85, 0xff, 0xff, 0xf5,
 
     /* U+F304 "" */
-    0x0, 0x0, 0x0, 0x7e, 0x30, 0x0, 0x0, 0x4b,
-    0xfe, 0x0, 0x0, 0x8f, 0x9b, 0x70, 0x0, 0x8f,
-    0xff, 0x40, 0x0, 0x8f, 0xff, 0x80, 0x0, 0x7f,
-    0xff, 0x80, 0x0, 0xe, 0xff, 0x80, 0x0, 0x0,
+    0x0, 0x0, 0x0, 0x7d, 0x30, 0x0, 0x0, 0x4b,
+    0xfd, 0x0, 0x0, 0x7f, 0x9b, 0x70, 0x0, 0x7f,
+    0xff, 0x40, 0x0, 0x7f, 0xff, 0x70, 0x0, 0x7f,
+    0xff, 0x70, 0x0, 0xe, 0xff, 0x70, 0x0, 0x0,
     0xee, 0x70, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0,
     0x0,
 
@@ -758,6 +1166,7 @@ static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
     0xff, 0xf0, 0x2e, 0x92, 0x22, 0x21, 0x0, 0x23,
     0x0, 0x0, 0x0
 };
+
 
 /*---------------------
  *  GLYPH DESCRIPTION
@@ -860,94 +1269,196 @@ static const lv_font_fmt_txt_glyph_dsc_t glyph_dsc[] = {
     {.bitmap_index = 1110, .adv_w = 38, .box_w = 2, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
     {.bitmap_index = 1117, .adv_w = 45, .box_w = 3, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
     {.bitmap_index = 1128, .adv_w = 74, .box_w = 5, .box_h = 2, .ofs_x = 0, .ofs_y = 2},
-    {.bitmap_index = 1133, .adv_w = 54, .box_w = 3, .box_h = 3, .ofs_x = 0, .ofs_y = 3},
-    {.bitmap_index = 1138, .adv_w = 40, .box_w = 2, .box_h = 3, .ofs_x = 0, .ofs_y = 1},
-    {.bitmap_index = 1141, .adv_w = 128, .box_w = 8, .box_h = 9, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1177, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 1201, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1233, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 1257, .adv_w = 88, .box_w = 6, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 1275, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1307, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1339, .adv_w = 144, .box_w = 9, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1375, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1407, .adv_w = 144, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 1434, .adv_w = 128, .box_w = 8, .box_h = 10, .ofs_x = 0, .ofs_y = -2},
-    {.bitmap_index = 1474, .adv_w = 64, .box_w = 4, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1488, .adv_w = 96, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1509, .adv_w = 144, .box_w = 9, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1545, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 1569, .adv_w = 88, .box_w = 6, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1593, .adv_w = 112, .box_w = 5, .box_h = 8, .ofs_x = 1, .ofs_y = -1},
-    {.bitmap_index = 1613, .adv_w = 112, .box_w = 7, .box_h = 10, .ofs_x = 0, .ofs_y = -2},
-    {.bitmap_index = 1648, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1676, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1704, .adv_w = 112, .box_w = 5, .box_h = 8, .ofs_x = 1, .ofs_y = -1},
-    {.bitmap_index = 1724, .adv_w = 112, .box_w = 9, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
-    {.bitmap_index = 1760, .adv_w = 80, .box_w = 5, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1780, .adv_w = 80, .box_w = 5, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1800, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1828, .adv_w = 112, .box_w = 7, .box_h = 2, .ofs_x = 0, .ofs_y = 2},
-    {.bitmap_index = 1835, .adv_w = 144, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 1862, .adv_w = 160, .box_w = 11, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
-    {.bitmap_index = 1906, .adv_w = 144, .box_w = 11, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
-    {.bitmap_index = 1950, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 1982, .adv_w = 112, .box_w = 7, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2003, .adv_w = 112, .box_w = 7, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2024, .adv_w = 160, .box_w = 11, .box_h = 7, .ofs_x = -1, .ofs_y = -1},
-    {.bitmap_index = 2063, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2087, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2119, .adv_w = 128, .box_w = 9, .box_h = 9, .ofs_x = -1, .ofs_y = -1},
-    {.bitmap_index = 2160, .adv_w = 112, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2192, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2220, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2248, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2276, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2300, .adv_w = 80, .box_w = 7, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
-    {.bitmap_index = 2328, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2356, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2384, .adv_w = 144, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2411, .adv_w = 128, .box_w = 10, .box_h = 10, .ofs_x = -1, .ofs_y = -2},
-    {.bitmap_index = 2461, .adv_w = 96, .box_w = 6, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2485, .adv_w = 160, .box_w = 10, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2525, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2555, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2585, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2615, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2645, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2675, .adv_w = 160, .box_w = 11, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2719, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2747, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2775, .adv_w = 128, .box_w = 9, .box_h = 9, .ofs_x = -1, .ofs_y = -2},
-    {.bitmap_index = 2816, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
-    {.bitmap_index = 2846, .adv_w = 96, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
-    {.bitmap_index = 2874, .adv_w = 129, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0}
+    {.bitmap_index = 1133, .adv_w = 34, .box_w = 2, .box_h = 5, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1138, .adv_w = 73, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1153, .adv_w = 83, .box_w = 6, .box_h = 5, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1168, .adv_w = 90, .box_w = 6, .box_h = 6, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1186, .adv_w = 90, .box_w = 7, .box_h = 5, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1204, .adv_w = 38, .box_w = 2, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1211, .adv_w = 64, .box_w = 4, .box_h = 6, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1223, .adv_w = 77, .box_w = 3, .box_h = 1, .ofs_x = 1, .ofs_y = 5},
+    {.bitmap_index = 1225, .adv_w = 103, .box_w = 7, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1246, .adv_w = 52, .box_w = 3, .box_h = 3, .ofs_x = 0, .ofs_y = 3},
+    {.bitmap_index = 1251, .adv_w = 65, .box_w = 4, .box_h = 3, .ofs_x = 0, .ofs_y = 1},
+    {.bitmap_index = 1257, .adv_w = 74, .box_w = 5, .box_h = 3, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1265, .adv_w = 103, .box_w = 7, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1286, .adv_w = 77, .box_w = 3, .box_h = 1, .ofs_x = 1, .ofs_y = 5},
+    {.bitmap_index = 1288, .adv_w = 54, .box_w = 3, .box_h = 3, .ofs_x = 0, .ofs_y = 3},
+    {.bitmap_index = 1293, .adv_w = 74, .box_w = 5, .box_h = 5, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1306, .adv_w = 55, .box_w = 4, .box_h = 3, .ofs_x = 0, .ofs_y = 3},
+    {.bitmap_index = 1312, .adv_w = 55, .box_w = 4, .box_h = 3, .ofs_x = 0, .ofs_y = 3},
+    {.bitmap_index = 1318, .adv_w = 77, .box_w = 3, .box_h = 1, .ofs_x = 1, .ofs_y = 5},
+    {.bitmap_index = 1320, .adv_w = 87, .box_w = 5, .box_h = 5, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1333, .adv_w = 83, .box_w = 5, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1351, .adv_w = 34, .box_w = 2, .box_h = 2, .ofs_x = 0, .ofs_y = 1},
+    {.bitmap_index = 1353, .adv_w = 77, .box_w = 3, .box_h = 2, .ofs_x = 1, .ofs_y = -2},
+    {.bitmap_index = 1356, .adv_w = 55, .box_w = 3, .box_h = 3, .ofs_x = 0, .ofs_y = 3},
+    {.bitmap_index = 1361, .adv_w = 54, .box_w = 4, .box_h = 3, .ofs_x = 0, .ofs_y = 3},
+    {.bitmap_index = 1367, .adv_w = 65, .box_w = 4, .box_h = 3, .ofs_x = 0, .ofs_y = 1},
+    {.bitmap_index = 1373, .adv_w = 132, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1400, .adv_w = 132, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1424, .adv_w = 132, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1451, .adv_w = 73, .box_w = 5, .box_h = 5, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1464, .adv_w = 94, .box_w = 7, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1489, .adv_w = 94, .box_w = 7, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1514, .adv_w = 94, .box_w = 7, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1539, .adv_w = 94, .box_w = 7, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1564, .adv_w = 94, .box_w = 7, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1589, .adv_w = 94, .box_w = 7, .box_h = 8, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1617, .adv_w = 134, .box_w = 9, .box_h = 5, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1640, .adv_w = 93, .box_w = 6, .box_h = 6, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1658, .adv_w = 86, .box_w = 5, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1676, .adv_w = 86, .box_w = 5, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1694, .adv_w = 86, .box_w = 5, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1712, .adv_w = 86, .box_w = 5, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1730, .adv_w = 40, .box_w = 3, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1741, .adv_w = 40, .box_w = 3, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1752, .adv_w = 40, .box_w = 4, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 1766, .adv_w = 40, .box_w = 3, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1777, .adv_w = 107, .box_w = 7, .box_h = 5, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1795, .adv_w = 104, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1816, .adv_w = 108, .box_w = 7, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1841, .adv_w = 108, .box_w = 7, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1866, .adv_w = 108, .box_w = 7, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1891, .adv_w = 108, .box_w = 7, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1916, .adv_w = 108, .box_w = 7, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1941, .adv_w = 74, .box_w = 4, .box_h = 4, .ofs_x = 0, .ofs_y = 1},
+    {.bitmap_index = 1949, .adv_w = 108, .box_w = 7, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 1974, .adv_w = 101, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 1995, .adv_w = 101, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2016, .adv_w = 101, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2037, .adv_w = 101, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2058, .adv_w = 83, .box_w = 7, .box_h = 7, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 2083, .adv_w = 92, .box_w = 6, .box_h = 5, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2098, .adv_w = 87, .box_w = 6, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2116, .adv_w = 77, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2131, .adv_w = 77, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2146, .adv_w = 77, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2161, .adv_w = 77, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2176, .adv_w = 77, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2191, .adv_w = 77, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2206, .adv_w = 127, .box_w = 8, .box_h = 4, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2222, .adv_w = 73, .box_w = 5, .box_h = 5, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2235, .adv_w = 78, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2250, .adv_w = 78, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2265, .adv_w = 78, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2280, .adv_w = 78, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2295, .adv_w = 36, .box_w = 3, .box_h = 6, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 2304, .adv_w = 36, .box_w = 3, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2313, .adv_w = 36, .box_w = 4, .box_h = 6, .ofs_x = -1, .ofs_y = 0},
+    {.bitmap_index = 2325, .adv_w = 36, .box_w = 3, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2334, .adv_w = 82, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2349, .adv_w = 87, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2364, .adv_w = 81, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2379, .adv_w = 81, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2394, .adv_w = 81, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2409, .adv_w = 81, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2424, .adv_w = 81, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2439, .adv_w = 74, .box_w = 5, .box_h = 4, .ofs_x = 0, .ofs_y = 1},
+    {.bitmap_index = 2449, .adv_w = 81, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2464, .adv_w = 87, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2479, .adv_w = 87, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2494, .adv_w = 87, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2509, .adv_w = 87, .box_w = 5, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2524, .adv_w = 72, .box_w = 6, .box_h = 7, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 2545, .adv_w = 87, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2566, .adv_w = 72, .box_w = 6, .box_h = 7, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 2587, .adv_w = 40, .box_w = 2, .box_h = 3, .ofs_x = 0, .ofs_y = 1},
+    {.bitmap_index = 2590, .adv_w = 128, .box_w = 8, .box_h = 9, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2626, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2650, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2682, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2706, .adv_w = 88, .box_w = 6, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2724, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2756, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2788, .adv_w = 144, .box_w = 9, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2824, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2856, .adv_w = 144, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 2883, .adv_w = 128, .box_w = 8, .box_h = 10, .ofs_x = 0, .ofs_y = -2},
+    {.bitmap_index = 2923, .adv_w = 64, .box_w = 4, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2937, .adv_w = 96, .box_w = 6, .box_h = 7, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2958, .adv_w = 144, .box_w = 9, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 2994, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 3018, .adv_w = 88, .box_w = 6, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3042, .adv_w = 112, .box_w = 5, .box_h = 8, .ofs_x = 1, .ofs_y = -1},
+    {.bitmap_index = 3062, .adv_w = 112, .box_w = 7, .box_h = 10, .ofs_x = 0, .ofs_y = -2},
+    {.bitmap_index = 3097, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3125, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3153, .adv_w = 112, .box_w = 5, .box_h = 8, .ofs_x = 1, .ofs_y = -1},
+    {.bitmap_index = 3173, .adv_w = 112, .box_w = 9, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 3209, .adv_w = 80, .box_w = 5, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3229, .adv_w = 80, .box_w = 5, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3249, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3277, .adv_w = 112, .box_w = 7, .box_h = 2, .ofs_x = 0, .ofs_y = 2},
+    {.bitmap_index = 3284, .adv_w = 144, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 3311, .adv_w = 160, .box_w = 11, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 3355, .adv_w = 144, .box_w = 11, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 3399, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3431, .adv_w = 112, .box_w = 7, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 3452, .adv_w = 112, .box_w = 7, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 3473, .adv_w = 160, .box_w = 11, .box_h = 7, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 3512, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 3536, .adv_w = 128, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3568, .adv_w = 128, .box_w = 9, .box_h = 9, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 3609, .adv_w = 112, .box_w = 8, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3641, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3669, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3697, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3725, .adv_w = 128, .box_w = 8, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 3749, .adv_w = 80, .box_w = 7, .box_h = 8, .ofs_x = -1, .ofs_y = -1},
+    {.bitmap_index = 3777, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3805, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3833, .adv_w = 144, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 3860, .adv_w = 128, .box_w = 10, .box_h = 10, .ofs_x = -1, .ofs_y = -2},
+    {.bitmap_index = 3910, .adv_w = 96, .box_w = 6, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3934, .adv_w = 160, .box_w = 10, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 3974, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 4004, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 4034, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 4064, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 4094, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 4124, .adv_w = 160, .box_w = 11, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 4168, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 4196, .adv_w = 112, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 4224, .adv_w = 128, .box_w = 9, .box_h = 9, .ofs_x = -1, .ofs_y = -2},
+    {.bitmap_index = 4265, .adv_w = 160, .box_w = 10, .box_h = 6, .ofs_x = 0, .ofs_y = 0},
+    {.bitmap_index = 4295, .adv_w = 96, .box_w = 7, .box_h = 8, .ofs_x = 0, .ofs_y = -1},
+    {.bitmap_index = 4323, .adv_w = 129, .box_w = 9, .box_h = 6, .ofs_x = 0, .ofs_y = 0}
 };
 
 /*---------------------
  *  CHARACTER MAPPING
  *--------------------*/
 
-static const uint16_t unicode_list_1[] = {
-    0x0, 0x1f72, 0xef51, 0xef58, 0xef5b, 0xef5c, 0xef5d, 0xef61,
-    0xef63, 0xef65, 0xef69, 0xef6c, 0xef71, 0xef76, 0xef77, 0xef78,
-    0xef8e, 0xef93, 0xef98, 0xef9b, 0xef9c, 0xef9d, 0xefa1, 0xefa2,
-    0xefa3, 0xefa4, 0xefb7, 0xefb8, 0xefbe, 0xefc0, 0xefc1, 0xefc4,
-    0xefc7, 0xefc8, 0xefc9, 0xefcb, 0xefe3, 0xefe5, 0xf014, 0xf015,
-    0xf017, 0xf019, 0xf030, 0xf037, 0xf03a, 0xf043, 0xf06c, 0xf074,
-    0xf0ab, 0xf13b, 0xf190, 0xf191, 0xf192, 0xf193, 0xf194, 0xf1d7,
-    0xf1e3, 0xf23d, 0xf254, 0xf4aa, 0xf712, 0xf7f2
+static const uint16_t unicode_list_3[] = {
+    0x0, 0xcfdf, 0xcfe6, 0xcfe9, 0xcfea, 0xcfeb, 0xcfef, 0xcff1,
+    0xcff3, 0xcff7, 0xcffa, 0xcfff, 0xd004, 0xd005, 0xd006, 0xd01c,
+    0xd021, 0xd026, 0xd029, 0xd02a, 0xd02b, 0xd02f, 0xd030, 0xd031,
+    0xd032, 0xd045, 0xd046, 0xd04c, 0xd04e, 0xd04f, 0xd052, 0xd055,
+    0xd056, 0xd057, 0xd059, 0xd071, 0xd073, 0xd0a2, 0xd0a3, 0xd0a5,
+    0xd0a7, 0xd0be, 0xd0c5, 0xd0c8, 0xd0d1, 0xd0fa, 0xd102, 0xd139,
+    0xd1c9, 0xd21e, 0xd21f, 0xd220, 0xd221, 0xd222, 0xd265, 0xd271,
+    0xd2cb, 0xd2e2, 0xd538, 0xd7a0, 0xd880
 };
 
 /*Collect the unicode lists and glyph_id offsets*/
-static const lv_font_fmt_txt_cmap_t cmaps[] = {
+static const lv_font_fmt_txt_cmap_t cmaps[] =
+{
     {
         .range_start = 32, .range_length = 95, .glyph_id_start = 1,
         .unicode_list = NULL, .glyph_id_ofs_list = NULL, .list_length = 0, .type = LV_FONT_FMT_TXT_CMAP_FORMAT0_TINY
     },
     {
-        .range_start = 176, .range_length = 63475, .glyph_id_start = 96,
-        .unicode_list = unicode_list_1, .glyph_id_ofs_list = NULL, .list_length = 62, .type = LV_FONT_FMT_TXT_CMAP_SPARSE_TINY
+        .range_start = 161, .range_length = 12, .glyph_id_start = 96,
+        .unicode_list = NULL, .glyph_id_ofs_list = NULL, .list_length = 0, .type = LV_FONT_FMT_TXT_CMAP_FORMAT0_TINY
+    },
+    {
+        .range_start = 174, .range_length = 82, .glyph_id_start = 108,
+        .unicode_list = NULL, .glyph_id_ofs_list = NULL, .list_length = 0, .type = LV_FONT_FMT_TXT_CMAP_FORMAT0_TINY
+    },
+    {
+        .range_start = 8226, .range_length = 55425, .glyph_id_start = 190,
+        .unicode_list = unicode_list_3, .glyph_id_ofs_list = NULL, .list_length = 61, .type = LV_FONT_FMT_TXT_CMAP_SPARSE_TINY
     }
 };
 
@@ -955,8 +1466,10 @@ static const lv_font_fmt_txt_cmap_t cmaps[] = {
  *    KERNING
  *----------------*/
 
+
 /*Map glyph_ids to kern left classes*/
-static const uint8_t kern_left_class_mapping[] = {
+static const uint8_t kern_left_class_mapping[] =
+{
     0, 0, 1, 2, 0, 3, 4, 5,
     2, 6, 7, 8, 9, 10, 9, 10,
     11, 12, 0, 13, 14, 15, 16, 17,
@@ -969,18 +1482,31 @@ static const uint8_t kern_left_class_mapping[] = {
     51, 45, 52, 52, 53, 48, 45, 45,
     46, 46, 54, 55, 56, 57, 51, 58,
     58, 59, 58, 60, 41, 0, 0, 9,
-    61, 9, 0, 0, 0, 0, 0, 0,
+    61, 47, 62, 63, 64, 0, 65, 0,
+    22, 8, 66, 0, 22, 0, 67, 0,
+    0, 0, 0, 51, 29, 9, 0, 0,
+    8, 9, 0, 0, 0, 68, 23, 23,
+    23, 23, 23, 23, 26, 25, 26, 26,
+    26, 26, 29, 29, 29, 29, 22, 29,
+    22, 22, 22, 22, 22, 0, 22, 30,
+    30, 30, 30, 39, 69, 46, 45, 45,
+    45, 45, 45, 45, 49, 47, 49, 49,
+    49, 49, 51, 51, 70, 51, 71, 45,
+    46, 46, 46, 46, 46, 9, 46, 51,
+    51, 51, 51, 58, 46, 58, 9, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0
 };
 
 /*Map glyph_ids to kern right classes*/
-static const uint8_t kern_right_class_mapping[] = {
+static const uint8_t kern_right_class_mapping[] =
+{
     0, 0, 1, 2, 0, 3, 4, 5,
     2, 6, 7, 8, 9, 10, 9, 10,
     11, 12, 13, 14, 15, 16, 17, 12,
@@ -993,164 +1519,210 @@ static const uint8_t kern_right_class_mapping[] = {
     39, 38, 40, 41, 38, 38, 42, 42,
     39, 42, 39, 42, 43, 44, 45, 46,
     46, 47, 46, 48, 0, 0, 35, 9,
-    49, 9, 0, 0, 0, 0, 0, 0,
+    49, 39, 50, 51, 52, 0, 53, 0,
+    23, 8, 9, 9, 23, 0, 54, 0,
+    0, 0, 0, 42, 55, 9, 0, 0,
+    8, 56, 0, 0, 0, 57, 24, 24,
+    24, 24, 24, 24, 24, 23, 25, 25,
+    25, 25, 25, 25, 25, 25, 25, 25,
+    23, 23, 23, 23, 23, 0, 23, 28,
+    28, 28, 28, 31, 25, 38, 37, 37,
+    37, 37, 37, 37, 37, 39, 39, 39,
+    39, 39, 58, 42, 59, 60, 39, 42,
+    39, 39, 39, 39, 39, 9, 39, 45,
+    45, 45, 45, 46, 38, 46, 9, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0
 };
 
 /*Kern values between classes*/
-static const int8_t kern_class_values[] = {
+static const int8_t kern_class_values[] =
+{
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 1, 0, 0, 0,
     0, 1, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 6, 0, 3, -3, 0, 0,
-    0, 0, -7, -8, 1, 6, 3, 2,
-    -5, 1, 6, 0, 5, 1, 4, 0,
+    0, 0, 0, 1, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 6, 0, 3,
+    -3, 0, 0, 0, 0, -7, -8, 1,
+    6, 3, 2, -5, 1, 6, 0, 5,
+    1, 4, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 8, 1, -1,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 8, 1, -1, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 3, 0, -4, 0, 0, 0, 0,
-    0, -3, 2, 3, 0, 0, -1, 0,
-    -1, 1, 0, -1, 0, -1, -1, -3,
-    0, 0, 0, 0, -1, 0, 0, -2,
-    -2, 0, 0, -1, 0, -3, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, -1,
-    -1, 0, -2, 0, -3, 0, -15, 0,
-    0, -3, 0, 3, 4, 0, 0, -3,
-    1, 1, 4, 3, -2, 3, 0, 0,
-    -7, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -5, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, -3, -2, -6, 0, -5,
-    -1, 0, 0, 0, 0, 0, 5, 0,
-    -4, -1, 0, 0, 0, -2, 0, 0,
-    -1, -9, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, -10, -1, 5,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -5, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 4,
-    0, 1, 0, 0, -3, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 5, 1,
+    0, 0, 0, 0, 0, 0, -3, 3,
+    0, 3, 6, 0, -6, 0, 0, 0,
+    0, -4, 0, 0, 0, 0, 0, -3,
+    2, 3, 0, 0, -1, 0, -1, 1,
+    0, -1, 0, -1, -1, -3, 0, 0,
+    0, 0, -1, 0, 0, -2, -2, 0,
+    0, -1, 0, -3, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -1, -1, 0,
+    0, 0, 0, 0, 0, -2, 0, 0,
+    -1, 0, 0, 0, 0, -3, 0, -15,
+    0, 0, -3, 0, 3, 4, 0, 0,
+    -3, 1, 1, 4, 3, -2, 3, 0,
+    0, -7, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -5, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
+    0, -3, 0, 0, 0, 0, 0, 0,
+    -2, -6, 0, -5, -1, 0, 0, 0,
+    0, 0, 5, 0, -4, -1, 0, 0,
+    0, -2, 0, 0, -1, -9, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -10, -1, 5, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -1, 0, 0, 0, 0, -5, -6, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 4, 0,
+    1, 0, 0, -3, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 5, 1, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 2,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    -5, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 1,
-    3, 1, 4, -1, 0, 0, 3, -1,
-    -4, -18, 1, 3, 3, 0, -2, 0,
-    5, 0, 4, 0, 4, 0, -12, 0,
-    -2, 4, 0, 4, -1, 3, 1, 0,
-    0, 0, -1, 0, 0, -2, 10, 0,
-    10, 0, 4, 0, 5, 2, 2, 4,
+    0, 0, -5, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 1, 3, 1, 4,
+    -1, 0, 0, 3, -1, -4, -18, 1,
+    3, 3, 0, -2, 0, 5, 0, 4,
+    0, 4, 0, -12, 0, -2, 4, 0,
+    4, -1, 3, 1, 0, 0, 0, -1,
+    0, 0, -2, 10, 0, 10, 0, 4,
+    0, 5, 2, 2, 0, 0, 1, 0,
+    0, 4, 5, 2, -10, 10, 10, 10,
     0, 0, 0, -5, 0, 0, 0, 0,
     0, -1, 0, 1, -2, -2, -3, 1,
     0, -1, 0, 0, 0, -5, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, -8, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, -7, 0, -8, 0, 0, 0,
-    0, -1, 0, 13, -2, -2, 1, 1,
-    -1, 0, -2, 1, 0, 0, -7, 0,
+    0, 0, 1, -3, 1, 0, -11, -1,
+    0, 0, 0, 0, 0, -7, 0, -8,
+    0, 0, 0, 0, -1, 0, 13, -2,
+    -2, 1, 1, -1, 0, -2, 1, 0,
+    0, -7, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -12, 0, 1,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, -12, 0, 1, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, -1, -4,
+    0, -8, -17, 0, 1, 0, 0, 0,
+    0, 8, 0, 0, -5, 0, 4, 0,
+    -9, -12, -9, -3, 4, 0, 0, -9,
+    0, 2, -3, 0, -2, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, -8, 0, 8, 0, 0, -5, 0,
-    4, 0, -9, -12, -9, -3, 4, 0,
-    0, -9, 0, 2, -3, 0, -2, 0,
+    0, 3, 4, -16, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 3, 4, -16, 0, 0,
+    -8, -1, 0, 5, -3, 6, 0, -6,
+    -10, 0, 0, 0, 0, 1, 0, 0,
+    0, 0, 0, 1, 1, -2, -3, 0,
+    0, 0, -1, 0, 0, -1, 0, 0,
+    0, -3, 0, -1, 0, -3, -3, 0,
+    -3, -4, -4, -2, 0, -3, 0, -3,
+    0, 0, 0, 0, -1, 0, 0, 1,
+    0, 1, -1, 0, 0, 0, 0, -2,
+    0, 0, 0, 0, -4, 0, 0, 0,
+    0, 0, 0, 1, -1, 0, 0, 0,
+    -1, 1, 1, 0, 0, 0, 0, -2,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 6, 0, 1, 0, 0, 0,
-    0, 0, 1, 1, -2, -3, 0, 0,
-    0, -1, 0, 0, -1, 0, 0, 0,
-    -3, 0, -1, 0, -3, -3, 0, -3,
-    -4, -4, -2, 0, -3, 0, -3, 0,
-    0, 0, 0, -1, 0, 0, 1, 0,
-    1, -1, 0, 0, 0, 0, 0, 1,
-    -1, 0, 0, 0, -1, 1, 1, 0,
-    0, 0, 0, -2, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 2, -1, 0,
-    -2, 0, -2, 0, 0, -1, 0, 4,
-    0, 0, -1, 0, 0, 0, 0, 0,
-    0, 0, -1, -1, 0, 0, -1, 0,
-    -1, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, -1, -1, 0, -1, -2, 0,
-    0, 0, 0, 0, 0, 0, 0, -1,
-    0, -1, -1, -1, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, -1, 0, 0,
-    0, 0, -1, -2, 0, -2, 0, -4,
-    -1, -4, 3, 0, 0, -3, 1, 3,
-    3, 0, -3, 0, -2, 0, 0, -6,
-    1, -1, 1, -7, 1, 0, 0, 0,
-    -7, 0, -7, -1, -11, -1, 0, -6,
-    0, 3, 4, 0, 2, 0, 0, 0,
-    0, 0, 0, -2, -2, 0, -4, 0,
-    0, 0, -1, 0, 0, 0, -1, 0,
-    0, 0, 0, 0, -1, -1, 0, -1,
-    -2, 0, 0, 0, 0, 0, 0, 0,
-    -1, -1, 0, -1, -2, -1, 0, 0,
-    -1, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -1, -1, 0, -2,
+    0, 2, -1, 0, -2, 0, -2, 0,
+    0, -1, 0, 4, 0, 0, -1, 0,
+    0, 0, 0, 0, 0, 0, -1, -1,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -1, 0, -1,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -1, -1, 0, -1, -2, 0, 0,
+    0, 0, 0, 0, 0, 0, -1, 0,
+    -1, -1, -1, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -1, 0, 0, 0,
+    0, -1, -2, 0, 0, 0, 0, 0,
+    0, -2, 0, 0, 0, 0, 0, 0,
+    0, -4, -1, -4, 3, 0, 0, -3,
+    1, 3, 3, 0, -3, 0, -2, 0,
+    0, -6, 1, -1, 1, -7, 1, 0,
+    0, 0, -7, 0, -7, -1, -11, -1,
+    0, -6, 0, 3, 4, 0, 2, 0,
+    0, 0, 0, 0, 0, -2, -2, 0,
+    0, 1, 1, -1, 3, -4, -2, 0,
+    1, 0, 0, 0, 0, 0, 0, -1,
+    0, 0, 0, -1, 0, 0, 0, 0,
+    0, -1, -1, 0, -1, -2, 0, 0,
+    0, 0, 0, 0, 0, -1, -1, 0,
+    -1, -2, -1, 0, 0, -1, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -1, -1, 0, 0, 0, 0, 0,
+    0, -2, 0, 0, 0, 0, 0, 0,
     0, -1, 0, -3, 1, 0, 0, -2,
     1, 1, 1, 0, 0, 0, 0, 0,
     0, -1, 0, 0, 0, 0, 0, 1,
     0, 0, -1, 0, -1, -1, -2, 0,
     0, 0, 0, 0, 0, 0, 1, 0,
     -1, 0, 0, 0, 0, -1, -2, 0,
-    -2, 0, 4, -1, 0, -4, 0, 0,
-    3, -6, -7, -5, -3, 1, 0, -1,
-    -8, -2, 0, -2, 0, -3, 2, -2,
-    -8, 0, -3, 0, 0, 1, 0, 1,
-    -1, 0, 1, 0, -4, -5, 0, -6,
-    -3, -3, -3, -4, -2, -3, 0, -2,
-    -3, 1, 0, 0, 0, -1, 0, 0,
-    0, 1, 0, 1, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, -1,
-    0, -1, 0, 0, -1, 0, -2, -3,
-    -3, 0, 0, -4, 0, 0, 0, 0,
-    0, 0, -1, 0, 0, 0, 0, 1,
-    -1, 0, 0, 0, 1, 0, 0, 0,
-    0, 0, 0, 0, 0, 6, 0, 0,
-    0, 0, 0, 0, 1, 0, 0, 0,
-    -1, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -2, 0, 1, 0,
+    0, 0, 1, 0, 3, -2, 0, 0,
+    0, 0, 0, 0, 0, 4, -1, 0,
+    -4, 0, 0, 3, -6, -7, -5, -3,
+    1, 0, -1, -8, -2, 0, -2, 0,
+    -3, 2, -2, -8, 0, -3, 0, 0,
+    1, 0, 1, -1, 0, 1, 0, -4,
+    -5, 0, -6, -3, -3, -3, -4, -2,
+    -3, 0, -2, -3, -3, -2, -3, 2,
+    -1, 1, 3, -2, -8, -3, -3, -3,
+    0, 0, 0, -1, 0, 0, 0, 1,
+    0, 1, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -1, 0, -1,
+    0, 0, -1, 0, -2, -3, -3, 0,
+    0, -4, 0, 0, 0, 0, 0, 0,
+    -1, 0, 0, 0, 0, 1, -1, 0,
+    0, 0, 0, -1, 1, 0, 0, 0,
+    -3, 0, 0, 0, 0, 1, 0, 0,
+    0, 0, 0, 0, 0, 0, 6, 0,
+    0, 0, 0, 0, 0, 1, 0, 0,
+    0, -1, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -2, 0, 1,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -1, 0, 0, 0,
-    -2, 0, 0, 0, 0, -6, -4, 0,
-    0, 0, -2, -6, 0, 0, -1, 1,
-    0, -3, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -2, 0, 0, -2,
+    0, 0, 0, 0, 0, 0, 0, -5,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 1, 0, -2, 0,
-    0, 0, 0, 2, 0, 1, -3, -3,
-    0, -1, -1, -2, 0, 0, 0, 0,
-    0, 0, -4, 0, -1, 0, -2, -1,
-    0, -3, -3, -4, -1, 0, -3, 0,
-    -4, 0, 0, 0, 0, 10, 0, 0,
-    1, 0, 0, -2, 0, 1, 0, -6,
-    0, 0, 0, 0, 0, -12, -2, 4,
-    4, -1, -5, 0, 1, -2, 0, -6,
-    -1, -2, 1, -9, -1, 2, 0, 2,
-    -4, -2, -5, -4, -5, 0, 0, -8,
-    0, 7, 0, 0, -1, 0, 0, 0,
-    -1, -1, -1, -3, -4, 0, -12, 0,
+    -1, 0, 0, 0, -2, 0, 0, 0,
+    0, -6, -4, 0, 0, 0, -2, -6,
+    0, 0, -1, 1, 0, -3, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -2, 0, 0, -2, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -1, 0, 0, -2, 0, 1, 0, 1,
+    -14, 0, 0, 0, 0, -2, 0, 0,
+    0, 0, 2, 0, 1, -3, -3, 0,
+    -1, -1, -2, 0, 0, 0, 0, 0,
+    0, -4, 0, -1, 0, -2, -1, 0,
+    -3, -3, -4, -1, 0, -3, 0, -4,
+    0, 0, 0, 0, 10, 0, 0, 1,
+    0, 0, -2, 0, 0, 0, 0, 0,
+    0, 1, 0, 0, -3, 0, 0, 0,
+    0, -6, 0, 0, 0, 0, 0, -12,
+    -2, 4, 4, -1, -5, 0, 1, -2,
+    0, -6, -1, -2, 1, -9, -1, 2,
+    0, 2, -4, -2, -5, -4, -5, 0,
+    0, -8, 0, 7, 0, 0, -1, 0,
+    0, 0, -1, -1, -1, -3, -4, 0,
+    1, 0, 0, 0, 0, -12, -10, 2,
+    3, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, -1, 0,
+    -1, -1, -2, 0, 0, -3, 0, -1,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, -1, 0, -1, -1, -2, 0, 0,
-    -3, 0, -1, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, -3, 0, 0, 3,
     0, 2, 0, -3, 1, -1, 0, -3,
@@ -1158,245 +1730,376 @@ static const int8_t kern_class_values[] = {
     0, 0, -1, 0, -1, -2, -2, 0,
     0, -1, 0, 1, -1, 0, -3, 0,
     0, 0, -3, 0, -2, 0, -2, -2,
-    1, 0, 0, 0, 0, 0, 0, 0,
-    0, -3, 1, 0, -2, 0, -1, -2,
-    -4, -1, -1, -1, 0, -1, -2, 0,
-    0, 0, 0, 0, 0, -1, -1, -1,
-    0, 0, 0, 0, 2, -1, 0, -1,
-    0, 0, 0, -1, -2, -1, -1, -2,
-    -1, 0, 1, 5, 0, 0, -3, 0,
-    -1, 3, 0, -1, -5, -2, 2, 0,
-    0, -6, -2, 1, -2, 1, 0, -1,
-    -1, -4, 0, -2, 1, 0, 0, -2,
-    0, 0, 0, 1, 1, -3, -2, 0,
-    -2, -1, -2, -1, -1, 0, -2, 1,
-    -2, -2, 4, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 1, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -2, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
+    -1, 0, 0, 0, -1, 1, 1, 0,
+    -2, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -3, 1, 0, -2,
+    0, -1, -2, -4, -1, -1, -1, 0,
+    -1, -2, 0, 0, 0, 0, 0, 0,
+    -1, -1, -1, 0, 0, 0, 0, 2,
+    -1, 0, -1, 0, 0, 0, -1, -2,
+    -1, -1, -2, -1, -1, 0, 0, 0,
     -1, 0, 0, 0, 0, 0, 0, 0,
+    1, 5, 0, 0, -3, 0, -1, 3,
+    0, -1, -5, -2, 2, 0, 0, -6,
+    -2, 1, -2, 1, 0, -1, -1, -4,
+    0, -2, 1, 0, 0, -2, 0, 0,
+    0, 1, 1, -3, -2, 0, -2, -1,
+    -2, -1, -1, 0, -2, 1, -2, -2,
+    -1, 0, 0, 0, -1, 4, 1, -2,
+    -6, -1, 2, 1, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 1, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, -1, -1,
+    0, 0, 0, 0, 0, -2, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -2, 0, 0, -2,
-    0, 0, -1, -1, 0, 0, 0, 0,
-    -1, 0, 0, 0, 0, -1, 0, 0,
-    0, 0, 0, -1, 0, 0, 0, 0,
-    -2, 0, -3, 0, 0, 0, -4, 0,
-    1, -3, 3, 0, -1, -6, 0, 0,
-    -3, -1, 0, -5, -3, -4, 0, 0,
-    -6, -1, -5, -5, -6, 0, -3, 0,
-    1, 9, -2, 0, -3, -1, 0, -1,
-    -2, -3, -2, -5, -5, -3, -1, 0,
-    0, -1, 0, 0, 0, 0, -9, -1,
-    4, 3, -3, -5, 0, 0, -4, 0,
-    -6, -1, -1, 3, -12, -2, 0, 0,
-    0, -8, -2, -7, -1, -9, 0, 0,
-    -9, 0, 8, 0, 0, -1, 0, 0,
-    0, 0, -1, -1, -5, -1, 0, -8,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -1, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -1, -1, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, -2, 0, 0, -2, 0,
+    0, -1, -1, 0, 0, 0, 0, -1,
+    0, 0, 0, 0, -1, 0, 0, 0,
+    0, 0, -1, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -1, 0, 0, 0,
+    0, 0, -2, 0, -3, 0, 0, 0,
+    -4, 0, 1, -3, 3, 0, -1, -6,
+    0, 0, -3, -1, 0, -5, -3, -4,
+    0, 0, -6, -1, -5, -5, -6, 0,
+    -3, 0, 1, 9, -2, 0, -3, -1,
+    0, -1, -2, -3, -2, -5, -5, -3,
+    0, 0, 0, 0, 0, -1, -1, 0,
+    0, -1, -1, -1, 0, 0, -1, 0,
+    0, 0, 0, -9, -1, 4, 3, -3,
+    -5, 0, 0, -4, 0, -6, -1, -1,
+    3, -12, -2, 0, 0, 0, -8, -2,
+    -7, -1, -9, 0, 0, -9, 0, 8,
+    0, 0, -1, 0, 0, 0, 0, -1,
+    -1, -5, -1, 0, 0, 0, 0, 0,
+    0, -8, -10, 1, 0, 0, 0, 0,
     0, 0, 0, 0, -4, 0, -1, 0,
     0, -4, -6, 0, 0, -1, -2, -4,
     -1, 0, -1, 0, 0, 0, 0, -6,
     -1, -4, -4, -1, -2, -3, -1, -2,
     0, -3, -1, -4, -2, 0, -2, -2,
     -1, -2, 0, 1, 0, -1, -4, 0,
-    3, 0, -2, 0, 0, 0, 0, 2,
-    0, 1, -3, 5, 0, -1, -1, -2,
-    0, 0, 0, 0, 0, 0, -4, 0,
-    -1, 0, -2, -1, 0, -3, -3, -4,
-    -1, 0, -3, 1, 5, 0, 0, 0,
-    0, 10, 0, 0, 1, 0, 0, -2,
-    0, 1, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 3, 0, 0,
+    -7, -2, -2, -2, 0, -2, 0, 0,
+    0, 0, 2, 0, 1, -3, 5, 0,
+    -1, -1, -2, 0, 0, 0, 0, 0,
+    0, -4, 0, -1, 0, -2, -1, 0,
+    -3, -3, -4, -1, 0, -3, 1, 5,
+    0, 0, 0, 0, 10, 0, 0, 1,
+    0, 0, -2, 0, 0, 0, 0, 0,
+    0, 1, 0, 0, -3, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    -1, -3, 0, 0, 0, 0, 0, -1,
-    0, 0, 0, -1, -1, 0, 0, -3,
-    -1, 0, 0, -3, 0, 2, -1, 0,
-    0, 0, 0, 0, 0, 1, 0, 0,
-    0, 0, 2, 3, 1, -1, 0, -4,
-    -2, 0, 4, -4, -4, -3, -3, 5,
-    2, 1, -11, -1, 3, -1, 0, -1,
-    1, -1, -4, 0, -1, 1, -2, -1,
-    -4, -1, 0, 0, 4, 3, 0, -4,
-    0, -7, -2, 4, -2, -5, 0, -2,
-    -4, -4, -1, 5, 1, 0, -2, 0,
-    -3, 0, 1, 4, -3, -5, -5, -3,
-    4, 0, 0, -9, -1, 1, -2, -1,
-    -3, 0, -3, -5, -2, -2, -1, 0,
-    0, -3, -3, -1, 0, 4, 3, -1,
-    -7, 0, -7, -2, 0, -4, -7, 0,
-    -4, -2, -4, -4, 3, 0, 0, -2,
-    0, -3, -1, 0, -1, -2, 0, 2,
-    -4, 1, 0, 0, -7, 0, -1, -3,
-    -2, -1, -4, -3, -4, -3, 0, -4,
-    -1, -3, -2, -4, -1, 0, 0, 0,
-    6, -2, 0, -4, -1, 0, -1, -3,
-    -3, -3, -4, -5, -2, -3, 3, 0,
-    -2, 0, -6, -2, 1, 3, -4, -5,
-    -3, -4, 4, -1, 1, -12, -2, 3,
-    -3, -2, -5, 0, -4, -5, -2, -1,
-    -1, -1, -3, -4, 0, 0, 0, 4,
-    4, -1, -8, 0, -8, -3, 3, -5,
-    -9, -3, -4, -5, -6, -4, 3, 0,
-    0, 0, 0, -2, 0, 0, 1, -2,
-    3, 1, -2, 3, 0, 0, -4, 0,
+    0, 0, 0, 0, 0, 0, -1, -3,
     0, 0, 0, 0, 0, -1, 0, 0,
-    0, 0, 0, 0, -1, 0, 0, 0,
-    0, 1, 4, 0, 0, -2, 0, 0,
-    0, 0, -1, -1, -2, 0, 0, 0,
+    0, -1, -1, 0, 0, -3, -1, 0,
+    0, -3, 0, 2, -1, 0, 0, 0,
+    0, 0, 0, 1, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 2, 0, 0,
+    -1, 0, 0, 0, 3, 1, -1, 0,
+    -4, -2, 0, 4, -4, -4, -3, -3,
+    5, 2, 1, -11, -1, 3, -1, 0,
+    -1, 1, -1, -4, 0, -1, 1, -2,
+    -1, -4, -1, 0, 0, 4, 3, 0,
+    -4, 0, -7, -2, 4, -2, -5, 0,
+    -2, -4, -4, -1, -3, 0, 0, 0,
+    0, 5, 4, -2, -7, 2, 4, 2,
+    1, 0, -2, 0, -3, 0, 1, 4,
+    -3, -5, -5, -3, 4, 0, 0, -9,
+    -1, 1, -2, -1, -3, 0, -3, -5,
+    -2, -2, -1, 0, 0, -3, -3, -1,
+    0, 4, 3, -1, -7, 0, -7, -2,
+    0, -4, -7, 0, -4, -2, -4, -4,
+    -4, 0, 0, 0, 0, 3, 3, -2,
+    -9, 2, 5, 2, 0, 0, -2, 0,
+    -3, -1, 0, -1, -2, 0, 2, -4,
+    1, 0, 0, -7, 0, -1, -3, -2,
+    -1, -4, -3, -4, -3, 0, -4, -1,
+    -3, -2, -4, -1, 0, 0, 0, 6,
+    -2, 0, -4, -1, 0, -1, -3, -3,
+    -3, -4, -5, -2, -1, 0, 0, 0,
+    0, -3, 0, -1, 0, -1, -1, -1,
+    3, 0, -2, 0, -6, -2, 1, 3,
+    -4, -5, -3, -4, 4, -1, 1, -12,
+    -2, 3, -3, -2, -5, 0, -4, -5,
+    -2, -1, -1, -1, -3, -4, 0, 0,
+    0, 4, 4, -1, -8, 0, -8, -3,
+    3, -5, -9, -3, -4, -5, -6, -4,
+    -5, 0, 0, 0, -3, 3, 3, -2,
+    -10, 4, 4, 3, 0, 0, 0, 0,
+    -2, 0, 0, 1, -2, 3, 1, -2,
+    3, 0, 0, -4, 0, 0, 0, 0,
+    0, 0, -1, 0, 0, 0, 0, 0,
+    0, -1, 0, 0, 0, 0, 1, 4,
+    0, 0, -2, 0, 0, 0, 0, -1,
+    -1, -2, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
     0, 1, 0, 0, 0, 0, 1, 0,
     -1, 0, 5, 0, 2, 0, 0, -2,
     0, 3, 0, 0, 0, 1, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 4, 0, 4, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, -8, 0, -1, 2, 0, 4,
-    0, 0, 13, 2, -3, -3, 1, 1,
-    -1, 0, -6, 0, 0, 6, -8, 0,
+    0, 0, 0, 2, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -8, 0, -1,
+    2, 0, 4, 0, 0, 13, 2, -3,
+    -3, 1, 1, -1, 0, -6, 0, 0,
+    6, -8, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -9, 5, 18,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, -9, 5, 18, 0, 0, 0,
+    0, 0, 0, 0, 5, 0, 0, 0,
+    4, -8, -4, 1, 4, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, -8, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -2, 0, 0, -2,
+    0, 0, -2, 0, 0, -2, -1, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -1, 0, -3,
+    0, 0, 0, 0, 0, 1, 17, -3,
+    -1, 4, 3, -3, 1, 0, 0, 1,
+    1, -2, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -17, 4, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 1, 2, -1, -1,
+    3, 0, -9, 1, 0, 0, 0, 0,
+    0, 0, 0, -4, 0, 0, 0, -3,
+    0, 0, 0, 0, -3, -1, 0, 0,
+    0, -3, 0, -2, 0, -6, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -9, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -1, 0, 0,
+    0, 0, 0, 0, 0, -2, -3, 0,
+    0, 0, 0, 0, 0, -2, 0, -3,
+    0, 0, 0, -2, 1, -2, 0, 0,
+    -3, -1, -3, 0, 0, -3, 0, -1,
+    0, -6, 0, -1, 0, 0, -10, -2,
+    -5, -1, -5, 0, 0, -9, 0, -3,
+    -1, 0, 0, 0, 0, 0, 0, 0,
+    0, -2, -2, -1, 0, 0, 0, 0,
+    0, -2, -3, 0, -1, 0, 0, 0,
+    0, 0, 0, 0, -3, 0, -3, 2,
+    -1, 3, 0, -1, -3, -1, -2, -2,
+    0, -2, -1, -1, 1, -3, 0, 0,
+    0, 0, -11, -1, -2, 0, -3, 0,
+    -1, -6, -1, 0, 0, -1, -1, 0,
+    0, 0, 0, 1, 0, -1, -2, -1,
+    0, 0, 0, 0, -1, 2, 0, 0,
     -1, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -1, 0, -3, 0,
-    0, 0, 0, 0, 1, 17, -3, -1,
-    4, 3, -3, 1, 0, 0, 1, 1,
-    -2, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -17, 4, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, -4,
-    0, 0, 0, -3, 0, 0, 0, 0,
-    -3, -1, 0, 0, 0, -3, 0, -2,
-    0, -6, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, -9, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, -1, 0, 0, -2, 0, -2, 0,
-    -3, 0, 0, 0, -2, 1, -2, 0,
-    0, -3, -1, -3, 0, 0, -3, 0,
-    -1, 0, -6, 0, -1, 0, 0, -10,
-    -2, -5, -1, -5, 0, 0, -9, 0,
-    -3, -1, 0, 0, 0, 0, 0, 0,
-    0, 0, -2, -2, -1, -2, 0, 0,
-    0, 0, -3, 0, -3, 2, -1, 3,
-    0, -1, -3, -1, -2, -2, 0, -2,
-    -1, -1, 1, -3, 0, 0, 0, 0,
-    -11, -1, -2, 0, -3, 0, -1, -6,
-    -1, 0, 0, -1, -1, 0, 0, 0,
-    0, 1, 0, -1, -2, -1, 2, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 2,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 2, 0, 0, 0, 0, 0,
     0, -3, 0, -1, 0, 0, 0, -3,
     1, 0, 0, 0, -3, -1, -3, 0,
     0, -4, 0, -1, 0, -6, 0, 0,
     0, 0, -12, 0, -3, -5, -6, 0,
     0, -9, 0, -1, -2, 0, 0, 0,
     0, 0, 0, 0, 0, -1, -2, -1,
-    -2, 0, 0, 0, 2, -2, 0, 4,
-    6, -1, -1, -4, 2, 6, 2, 3,
-    -3, 2, 5, 2, 4, 3, 3, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 8, 6, -2, -1, 0, -1,
-    10, 6, 10, 0, 0, 0, 1, 0,
-    0, 5, 0, 0, -2, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, -1, 0,
-    0, 0, 0, 0, 0, 0, 0, 2,
-    0, 0, 0, 0, -11, -2, -1, -5,
-    -6, 0, 0, -9, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, -2, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, -1,
-    0, 0, 0, 0, 0, 0, 0, 0,
-    2, 0, 0, 0, 0, -11, -2, -1,
-    -5, -6, 0, 0, -5, 0, 0, 0,
+    0, 0, 0, 0, 0, -2, -3, 0,
+    -1, 0, 0, 0, 0, 0, 0, 2,
+    -2, 0, 4, 6, -1, -1, -4, 2,
+    6, 2, 3, -3, 2, 5, 2, 4,
+    3, 3, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 8, 6, -2,
+    -1, 0, -1, 10, 6, 10, 0, 0,
+    0, 1, 0, 0, 0, 0, 0, 0,
+    0, 5, 5, 0, -2, 9, 6, 8,
+    0, 0, -2, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -1, 0, 0, 0,
+    0, 0, 0, 0, 0, 2, 0, 0,
+    0, 0, -11, -2, -1, -5, -6, 0,
+    0, -9, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    -1, 0, 0, 0, -3, 1, 0, -1,
-    1, 2, 1, -4, 0, 0, -1, 1,
-    0, 1, 0, 0, 0, 0, -3, 0,
-    -1, -1, -3, 0, -1, -5, 0, 8,
-    -1, 0, -3, -1, 0, -1, -2, 0,
-    -1, -4, -3, -2, 0, 0, 0, -2,
+    0, 0, 0, 0, 0, 0, -2, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, -1, 0, 0, 0, 0, 0, 0,
-    0, 0, 2, 0, 0, 0, 0, -11,
-    -2, -1, -5, -6, 0, 0, -9, 0,
-    0, 0, 0, 0, 0, 6, 0, 0,
+    -1, 0, 0, 0, 0, 0, 0, 0,
+    0, 2, 0, 0, 0, 0, -11, -2,
+    -1, -5, -6, 0, 0, -5, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    -2, 0, -4, -2, -1, 4, -1, -1,
-    -5, 0, -1, 0, -1, -3, 0, 3,
-    0, 1, 0, 1, -3, -5, -2, 0,
-    -5, -2, -3, -5, -5, 0, -2, -3,
-    -2, -2, -1, -1, -2, -1, 0, -1,
-    0, 2, 0, 2, -1, 0, 4, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, -1, -1, -1, 0, 0,
-    -3, 0, -1, 0, -2, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    -8, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -1, -1, 0, -2,
+    0, 0, 0, 0, -1, 0, 0, 0,
+    -3, 1, 0, -1, 1, 2, 1, -4,
+    0, 0, -1, 1, 0, 1, 0, 0,
+    0, 0, -3, 0, -1, -1, -3, 0,
+    -1, -5, 0, 8, -1, 0, -3, -1,
+    0, -1, -2, 0, -1, -4, -3, -2,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -1, -1, -1, 0, 0, -2, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -1, 0, 0, 0, 0, 0, 0, 0,
+    0, 2, 0, 0, 0, 0, -11, -2,
+    -1, -5, -6, 0, 0, -9, 0, 0,
+    0, 0, 0, 0, 6, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, -2, 0, -4, -2, -1, 4,
+    -1, -1, -5, 0, -1, 0, -1, -3,
+    0, 3, 0, 1, 0, 1, -3, -5,
+    -2, 0, -5, -2, -3, -5, -5, 0,
+    -2, -3, -2, -2, -1, -1, -2, -1,
+    0, -1, 0, 2, 0, 2, -1, 0,
+    0, 0, 0, 0, 1, 4, 4, 0,
+    -5, -1, -1, -1, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -1, -1, -1, 0, 0, -3, 0, -1,
+    0, -2, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -8, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -1, -1, 0, 0, 0, 0, 0,
+    0, -2, -3, 0, 0, 0, 0, 0,
     0, 0, 0, 0, -1, 0, 0, -2,
     -1, 1, 0, -2, -2, -1, 0, -4,
     -1, -3, -1, -2, 0, -2, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, -9, 0, 4, 0, 0, -2, 0,
     0, 0, 0, -2, 0, -1, 0, 0,
-    -1, 0, 0, -1, 0, -3, 0, 0,
-    5, -2, -4, -4, 1, 1, 1, 0,
-    -4, 1, 2, 1, 4, 1, 4, -1,
-    -3, 0, 0, -5, 0, 0, -4, -3,
-    0, 0, -3, 0, -2, -2, 0, -2,
-    0, -2, 0, -1, 2, 0, -1, -4,
-    -1, 5, 0, 0, -1, 0, -3, 0,
-    0, 2, -3, 0, 1, -1, 1, 0,
-    0, -4, 0, -1, 0, 0, -1, 1,
-    -1, 0, 0, 0, -5, -2, -3, 0,
-    -4, 0, 0, -6, 0, 5, -1, 0,
-    -2, 0, 1, 0, -1, 0, -1, -4,
-    0, -1, 1, 0, 0, 0, 0, -1,
-    0, 0, 1, -2, 0, 0, 0, -2,
-    -1, 0, -2, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -1, -1, -3, 0,
+    0, 0, 0, 0, 0, 0, -1, 0,
+    -3, 0, 0, 5, -2, -4, -4, 1,
+    1, 1, 0, -4, 1, 2, 1, 4,
+    1, 4, -1, -3, 0, 0, -5, 0,
+    0, -4, -3, 0, 0, -3, 0, -2,
+    -2, 0, -2, 0, -2, 0, -1, 2,
+    0, -1, -4, -1, 0, 0, 0, 0,
+    0, 5, 4, 0, -4, 0, 0, 0,
+    0, 0, -1, 0, -3, 0, 0, 2,
+    -3, 0, 1, -1, 1, 0, 0, -4,
+    0, -1, 0, 0, -1, 1, -1, 0,
+    0, 0, -5, -2, -3, 0, -4, 0,
+    0, -6, 0, 5, -1, 0, -2, 0,
+    1, 0, -1, 0, -1, -4, 0, -1,
+    0, 0, 0, 0, 0, 1, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, -8, 0, 3, 0,
+    -1, 0, 0, 1, -2, 0, 0, 0,
+    -2, -1, 0, -2, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -8, 0, 3,
+    0, 0, -1, 0, 0, 0, 0, 0,
+    0, -1, -1, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 5, 0, -3, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -7, 0, 1, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, -3, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, -1, 0,
+    -5, 0, 0, 3, -4, 0, 2, -5,
+    2, -1, -1, -4, -2, 1, -4, -3,
+    -4, 0, -2, -6, 0, -3, 0, 0,
+    0, -1, 1, 0, 0, 2, 0, 2,
+    -5, 0, -4, -3, -3, -3, -5, -3,
+    -3, -3, -3, -5, -3, 0, 0, 0,
+    -1, 0, 2, -2, -3, -3, 4, 1,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    1, -1, 0, 0, 0, -1, 0, 0,
+    0, -2, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, -1, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -1, 0, 0, 0, 1, 3, 0, 0,
+    0, 0, 2, 0, -3, -4, -4, -2,
+    4, 0, 1, -1, 0, 3, -1, 0,
+    -5, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 6, 2, -1,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -3, 0, 0, 0,
+    0, 0, 0, 0, -5, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    3, 0, 3, 0, 0, 0, 0, 2,
+    0, 1, 1, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 1, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, -1, 0, 1, 0,
+    0, 0, 0, 1, 1, 0, 0, 0,
     0, -1, 0, 0, 0, 0, 0, 0,
-    -1, -1, 0, 0, 0, 3, 0, 3,
-    0, 0, 0, 0, 0, -8, -7, 0,
-    6, 4, 2, -5, 1, 5, 0, 5,
-    0, 3, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 7, 0, 0,
+    0, 0, 0, 0, 0, -7, 0, 1,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 1, 0, 0, 0,
+    0, 3, 0, 3, 0, 0, 0, 0,
+    0, -8, -7, 0, 6, 4, 2, -5,
+    1, 5, 0, 5, 0, 3, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 7, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -8, 0, 0, 0, 0, -4, 0, -8,
+    -2, 0, 0, 0, -5, 0, 5, -6,
+    -6, 0, 0, -6, 0, -6, -6, 0,
+    0, -17, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, -12, 1, 6,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 1, -2, -6,
+    0, -7, -11, -1, -3, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -3, -4, 0, -3, -3, -3, 0,
+    -1, 0, 0, 0, 0, -4, 0, -4,
+    0, -5, -3, 0, -1, -4, -4, -2,
+    0, -5, 0, -4, -1, 0, 0, 0,
+    -1, 0, 0, 1, 0, 0, -1, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    -3, 0, 0, 0, 0, 0, -2, 0,
+    0, 0, 0, 10, 0, 0, 0, 0,
+    -1, 0, 0, 0, 0, 0, 0, 0,
+    0, 5, 0, 0, 0, 0, -11, -2,
+    -1, -5, -6, 0, 0, -9, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 1,
+    0, -2, 0, 1, 0, 0, -1, 0,
+    0, 0, 0, 0, 0, -1, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, -1, 0, -3, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 3, 0, 0,
+    -1, 0, 0, 0
 };
 
+
 /*Collect the kern class' data in one place*/
-static const lv_font_fmt_txt_kern_classes_t kern_classes = {
+static const lv_font_fmt_txt_kern_classes_t kern_classes =
+{
     .class_pair_values   = kern_class_values,
     .left_class_mapping  = kern_left_class_mapping,
     .right_class_mapping = kern_right_class_mapping,
-    .left_class_cnt      = 61,
-    .right_class_cnt     = 49,
+    .left_class_cnt      = 71,
+    .right_class_cnt     = 60,
 };
 
 /*--------------------
  *  ALL CUSTOM DATA
  *--------------------*/
 
-#if LVGL_VERSION_MAJOR >= 8
+#if LVGL_VERSION_MAJOR == 8
 /*Store all the custom data of the font*/
+static  lv_font_fmt_txt_glyph_cache_t cache;
+#endif
 
+#if LVGL_VERSION_MAJOR >= 8
 static const lv_font_fmt_txt_dsc_t font_dsc = {
 #else
 static lv_font_fmt_txt_dsc_t font_dsc = {
@@ -1406,12 +2109,16 @@ static lv_font_fmt_txt_dsc_t font_dsc = {
     .cmaps = cmaps,
     .kern_dsc = &kern_classes,
     .kern_scale = 16,
-    .cmap_num = 2,
+    .cmap_num = 4,
     .bpp = 4,
     .kern_classes = 1,
     .bitmap_format = 0,
-
+#if LVGL_VERSION_MAJOR == 8
+    .cache = &cache
+#endif
 };
+
+
 
 /*-----------------
  *  PUBLIC FONT
@@ -1434,7 +2141,14 @@ lv_font_t lv_font_montserrat_8 = {
     .underline_position = -1,
     .underline_thickness = 0,
 #endif
-    .dsc = &font_dsc           /*The custom font data. Will be accessed by `get_glyph_bitmap/dsc` */
+    .dsc = &font_dsc,          /*The custom font data. Will be accessed by `get_glyph_bitmap/dsc` */
+#if LV_VERSION_CHECK(8, 2, 0) || LVGL_VERSION_MAJOR >= 9
+    .fallback = NULL,
+#endif
+    .user_data = NULL,
 };
 
+
+
 #endif /*#if LV_FONT_MONTSERRAT_8*/
+
